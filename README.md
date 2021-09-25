@@ -1,6 +1,8 @@
 # Ecommerce-Ass2.2-WP
 Created by Travis Ross and Marcus Kalman
 
+!!! Please Note  that a new repository has been made due to issues with the previous repo !!!
+
 ## Passwords and Usernames
 
 ### SQL
