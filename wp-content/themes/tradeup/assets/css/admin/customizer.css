@@ -1,0 +1,121 @@
+/* Customizer CSS Styles */
+
+/* Dashicons */
+.tu-control-info-label:after {
+    font-family: dashicons;
+	line-height: 1.2;
+	vertical-align: middle;
+}
+
+/* Customizer Info Control */
+.tu-control-info {
+	background-color: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 1em;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+	position: relative;
+}
+.tu-m-t {
+	margin-top: 1.222em;
+}
+.tu-m-b {
+	margin-bottom: 1.222em;
+}
+.tu-control-info:after, .tu-control-info:before {
+	top: 100%;
+	left: 10%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.tu-control-info.no-pointer:after, .tu-control-info.no-pointer:before {
+	display: none;
+}
+.tu-control-info:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-top-color: #fff;
+	border-width: 8px;
+	margin-left: -8px;
+}
+.tu-control-info:before {
+	border-color: rgba(225, 225, 225, 0);
+	border-top-color: #e1e1e1;
+	border-width: 9px;
+	margin-left: -9px;
+}
+.tu-control-info > :last-child {
+	margin-bottom: 0;
+}
+.tu-control-info-label {
+	position: relative;
+	padding-right: 40px;
+}
+
+.tu-control-info-label .dashicons {
+	position: absolute;
+    top: 0.122em;
+    right: 0;
+	opacity: 0.5;
+}
+.tu-control-info-description {
+	border-top: 1px solid #e1e1e1;
+    padding-top: 0.322em;
+}
+
+/* Customizer Button Control */
+.tu-btn-notice {
+	display: none;
+	width: 100%;
+	display: inline-block;
+}
+
+/* Customizer Link Section */
+#customize-controls .control-section-link-button .accordion-section-title:hover,
+#customize-controls .control-section-link-button .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-link-button .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	width: 49%;
+	text-align: center;
+}
+
+.rtl .control-section-link-button .accordion-section-title .button {
+	margin-left:  0;
+}
+
+/* Customizer Installer */
+.notice-tuext-installer {
+	border-bottom: 1px solid #eee;
+    overflow: hidden;
+    padding: 0 14px;
+    background-color: #f6f6f6;
+}
+
+#accordion-section-jetpack_content_options{
+	display: none !important;
+}
+
+.wp-core-ui .button-group .button-primary {
+    background: #e91e63;
+    border-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.wp-core-ui .button-group .button-secondary{
+	color: #e91e63;
+    border-color: #e91e63;
+    background: #f6f7f7;
+}
+
+#tradeup-frontpage-modal p>a{
+	color: #e91e63;
+}

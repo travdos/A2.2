@@ -1,0 +1,13 @@
+/*WP Job Manager styles*/
+.header.always-sticky{
+	position: fixed;
+}
+
+#header.header-tall.always-sticky:not(.affix) .logo{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#to-top{
+	bottom: 0 !important;
+}
