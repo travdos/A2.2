@@ -15,7 +15,11 @@ cd xampp/htdocs
 
 git clone https://github.com/Kalman-ui/A2.2.git
 
-You should now have the code cloned to your device in the folder location you saved it to. Open your XAMPP control panel and start Apache and SQL. Go to your browser and type localhost/A2.2
+You should now have the code cloned to your device in your htdocs folder.
+
+Change the name of the folder to HalsHardware
+
+Open your XAMPP control panel and start Apache and SQL. Go to your browser and search localhost/HalsHardware
 
 ## Passwords and Usernames
 
