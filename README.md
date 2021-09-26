@@ -5,6 +5,8 @@ Created by Travis Ross and Marcus Kalman
 
 # How to install the site
 
+Open your XAMPP control panel and start Apache and SQL.
+
 Use Git Bash terminal and type in the following: 
 
 cd .. 
@@ -19,7 +21,19 @@ You should now have the code cloned to your device in your htdocs folder.
 
 Change the name of the folder to HalsHardware
 
-Open your XAMPP control panel and start Apache and SQL. Go to your browser and search localhost/HalsHardware
+In your browser, open http://localhost/phpmyadmin/server_databases.php?server=1 
+
+Create a database called halsdatabase.
+
+click on that database and go to Import. 
+
+Import the halsdatabase.sql.zip file in the Choose file section and press GO.
+
+go to  and follow the steps http://localhost/HalsHardware/wp-admin/plugin-install.php
+
+Go to your browser and search localhost/HalsHardware
+
+___________________________________________________________________________________________
 
 ## Passwords and Usernames
 
@@ -36,5 +50,3 @@ Table Prefix: wp_
 username: HHadmin
 password: scu21/1&GA*HH
 email: m.kalman.10@student.scu.edu.au
-# ElectronicCommerceSystems_A2.2
-# ElectronicCommerceSystems_A2.2
