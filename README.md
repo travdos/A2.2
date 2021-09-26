@@ -3,6 +3,20 @@ Created by Travis Ross and Marcus Kalman
 
 !!! Please Note  that a new repository has been made due to issues with the previous repo !!!
 
+# How to install the site
+
+Use Git Bash terminal and type in the following: 
+
+cd .. 
+
+cd ..
+
+cd xampp/htdocs
+
+git clone https://github.com/Kalman-ui/A2.2.git
+
+You should now have the code cloned to your device in the folder location you saved it to. Open your XAMPP control panel and start Apache and SQL. Go to your browser and type localhost/A2.2
+
 ## Passwords and Usernames
 
 ### SQL
