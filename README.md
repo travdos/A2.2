@@ -33,6 +33,8 @@ go to  and follow the steps http://localhost/HalsHardware/wp-admin/plugin-instal
 
 Go to your browser and search localhost/HalsHardware
 
+**If this does not work we have also supplied a word document within the submission on blackboad on another way to access the website**
+
 ___________________________________________________________________________________________
 
 ## Passwords and Usernames
